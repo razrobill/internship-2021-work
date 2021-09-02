@@ -1,0 +1,8 @@
+FUNCTION linearSearch(list, searchTerm):
+    FOR index FROM 0 -> length(list):
+      IF list[index] == searchTerm
+        RETURN index
+      ENDIF
+      ENDLOOP
+        RETURN -1
+END FUNCTION  
