@@ -1,0 +1,7 @@
+def myfunction():
+    global x
+    x = "pizza"
+    
+myfunction()
+
+print("I love " + x)

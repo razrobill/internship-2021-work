@@ -1,0 +1,5 @@
+a = 400
+b = 6
+c = 3000
+if a > b and c > a:
+    print("Both conditions are true")
