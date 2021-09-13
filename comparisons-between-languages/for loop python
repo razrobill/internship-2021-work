@@ -1,0 +1,3 @@
+animals = ["giraffe", "zebra", "cheetah"]
+for x in animals:
+    print(x)
