@@ -1,0 +1,3 @@
+subtotal = input("Enter total before tax: ")
+tax = .08 * subtotal
+print("tax on", subtotal, "is:", tax)
