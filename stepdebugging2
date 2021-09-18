@@ -1,0 +1,7 @@
+from step_debugging import say_hello, say_goodbye
+
+say_hello('Talia')
+say_hello('Insert Name')
+
+say_goodbye('Talia')
+say_goodbye('Insert Name')

@@ -1,0 +1,17 @@
+def main():
+    name = 'Talia'
+    say_hello(name)
+    say_goodbye(name)
+
+    name = 'Eve'
+    for i in range(3):
+        say_hello(name)
+        say_goodbye(name)
+
+def say_hello(hello_name):
+    print('Hello, ' + hello_name + '!')
+
+def say_goodbye(goodbye_name):
+    print('Goodbye, ' + goodbye_name)
+
+main()
