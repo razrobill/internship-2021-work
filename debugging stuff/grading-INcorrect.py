@@ -44,7 +44,7 @@ else:
 for grade in grades:
     print("Exam: " + str(grade))
 print("Average: " + str(avg))
-print("Grade: " + letter_grade)
+    print("Grade: " + letter_grade)
 
 if letter-grade is "F":
     print("Student is failing.")
