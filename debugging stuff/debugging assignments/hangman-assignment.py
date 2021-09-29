@@ -1,4 +1,4 @@
-import random
+
 word_list = ["giraffe", "lion", "tiger", "bear", "panda", "elephant", "zebra"]
 
 def get_word(word_list):
@@ -11,7 +11,7 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
-    print("Let's play hangman")
+    print("Let's play hangman)
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
@@ -39,10 +39,10 @@ def play(word):
                 print("You already tried ", guess, "!")
             elif guess != word:
                 print(guess, "isn't in the word :( ")
-                tries -= 1
+                tries = 1
                 guessed_words.append(guess)
             else:
-                guessed = True
+                guessed = False
                 word_completion = word
         else:
             print("invalid input")
@@ -54,7 +54,7 @@ def play(word):
     else:
         print("You are out of tries. The word was " + word + ". Try again next time!")
 
-def display_hangman(tries):
+def display_hangman():
     stages = [ """
                   --------
                   |      |
@@ -124,7 +124,7 @@ def display_hangman(tries):
 def main():
     word = get_word(word_list)
     play(word)
-    while input("Play again? (Y/N) ").upper() == "Y":
+    while input("Play again? (Y/N) ").upper() = "Y":
         word = get_word(word_list)
         play(word)
 
